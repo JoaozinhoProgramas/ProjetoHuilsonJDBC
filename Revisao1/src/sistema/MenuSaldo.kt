@@ -1,6 +1,7 @@
 package sistema
 
 import sistema.Caixa_De_Agua.CompraCaixa
+import sistema.Caixa_De_Agua.VendaCaixa
 
 fun menuSaldo(){
     do {
@@ -17,9 +18,7 @@ fun menuSaldo(){
 
             2 -> CompraCaixa()
 
-            3 -> {
-                println("Função da venda")
-            }
+            3 -> VendaCaixa()
 
             4 -> {
                 break

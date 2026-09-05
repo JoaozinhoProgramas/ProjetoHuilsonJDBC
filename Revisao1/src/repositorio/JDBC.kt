@@ -10,11 +10,11 @@ import java.math.BigDecimal
 //porta: 5432
 //usuario: postgres
 //senha: postgres
-//banco: NomePikaPraUmBanco
+//banco: ProjetoHuilson
 class JDBC(
     val user : String = "postgres",
     val password : String = "postgres",
-    val url : String = "jdbc:postgresql://localhost:5432/NomePikaPraUmBanco",
+    val url : String = "jdbc:postgresql://localhost:5432/ProjetoHuilson",
     var c :Connection? = null
 ) {
     fun conectar() {
@@ -35,7 +35,7 @@ class JDBC(
         try {
             conectar()
             val sql = """
-            INSERT INTO caixa_da_agua 
+            INSERT INTO CAIXA_DE_AGUA 
             (marca, modelo, dimensao, cor, material, formato, preco) 
             VALUES (?, ?, ?, ?, ?, ?, ?);
             
@@ -65,7 +65,7 @@ class JDBC(
             conectar()
             val stmt = c!!.createStatement()
 
-            val sql = "SELECT * from caixa_da_agua"
+            val sql = "SELECT * from CAIXA_DE_AGUA"
             //metadados vem em forma de lista, ResultSet
             val metadados = stmt.executeQuery(sql)
 
@@ -97,7 +97,7 @@ class JDBC(
         try {
             conectar()
             val sql =
-                "UPDATE caixa_da_agua SET preco = ?, marca = ?, modelo = ?, formato = ?, cor = ?, material = ?, dimensao = ? WHERE id = ?"
+                "UPDATE CAIXA_DE_AGUA SET preco = ?, marca = ?, modelo = ?, formato = ?, cor = ?, material = ?, dimensao = ? WHERE id = ?"
             //Continuar a logica para os outros itens
 
             val stmt = c!!.prepareStatement(sql)
@@ -127,7 +127,7 @@ class JDBC(
     fun excluir(id: Int) {
         try {
             conectar()
-            val sql = "DELETE FROM caixa_da_agua WHERE id = ?"
+            val sql = "DELETE FROM CAIXA_DE_AGUA WHERE id = ?"
             val stmt = c!!.prepareStatement(sql)
             stmt.setInt(1, id)
             stmt.executeUpdate()
@@ -145,7 +145,7 @@ class JDBC(
         try {
             conectar()
 
-            val sql = "SELECT preco FROM caixa_da_agua WHERE id = ?"
+            val sql = "SELECT preco FROM CAIXA_DE_AGUA WHERE id = ?"
             val stmt = c!!.prepareStatement(sql)
             stmt.setInt(1, id)
 

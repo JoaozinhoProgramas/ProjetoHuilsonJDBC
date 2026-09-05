@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5aac26c7-03b2-47ec-aa50-aff9df698c55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Revisao1/SQL/File.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AHAM/out/production/AHAM/KotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AHAM/out/production/AHAM/META-INF/AHAM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AHAM/src/Kotlin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Calculadora/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/Carro.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/Classes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/Pessoa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/Planta.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/out/production/Classes/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/out/production/Classes/ClassesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/out/production/Classes/META-INF/Classes.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/out/production/Classes/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Classes/out/production/Classes/Planta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Jogo de corrida/Analise técnica, criteriosa e analitica dessa bomba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Jogo de corrida/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Mercado/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Pilhas/Pilhas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Pilhas/out/production/Pilhas/META-INF/Pilhas.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Pilhas/out/production/Pilhas/Pilhas/src/PilhasKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Pilhas/src/Pilhas.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/RPG/Fichas dos atributos dos personagens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/RPG/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/Revisao1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/META-INF/Revisao1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/enumeradores/Cor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/enumeradores/Habilidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/enumeradores/Material.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/enumeradores/Turno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/pessoas/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/pessoas/Instalador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/pessoas/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/produto/CaixaDaAgua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/produto/Servico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/sistema/Caixa_De_Agua/CadastrarCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/out/production/Revisao1/sistema/MenuPrincipalKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/enumeradores/Cor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/enumeradores/Habilidade.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/enumeradores/Material.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/enumeradores/Turno.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/pessoas/Cliente.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/pessoas/Instalador.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/pessoas/Pessoa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/produto/CaixaDaAgua.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/produto/Servico.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/repositorio/JPA.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/sistema/Caixa_De_Agua/CadastrarCaixa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/sistema/Caixa_De_Agua/ListarCaixa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Revisao1/src/sistema/MenuPrincipal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOTLIN UILSON/Semaforo com Threads e fila/Semaforo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 1 - Estrutura de Dados/Calculadora.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 1 - Estrutura de Dados/Colecoes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Animal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Carro.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Especie.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Personagem.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 2 - Classes/Pessoa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/Arquitetura MVC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/src/main/kotlin/com/example/aula1/Aula1Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/src/main/kotlin/com/example/aula1/Personagem.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/src/test/kotlin/com/example/aula1/Aula1ApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/META-INF/aula1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/com/example/aula1/Aula1Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/com/example/aula1/Aula1ApplicationKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/com/example/aula1/PersonageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/com/example/aula1/Personagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/aula1/aula1/target/classes/com/example/aula1/PersonagemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/DesafioFinalRpgApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/config/ClientConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/controller/ChatController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/controller/CombatController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/controller/PersonagemController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/model/Personagem.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/repository/PersonagemRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/kotlin/com/unipar/desafio_final_rpg/service/PersonagemService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/src/test/kotlin/com/unipar/desafio_final_rpg/DesafioFinalRpgApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/META-INF/desafio-final-rpg.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/DesafioFinalRpgApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/DesafioFinalRpgApplicationKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/config/ClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/controller/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/controller/CombatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/controller/PersonagemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/model/Personagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/repository/PersonagemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/classes/com/unipar/desafio_final_rpg/service/PersonagemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/test-classes/META-INF/desafio-final-rpg.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrientacaoObjetos-main/Aula 3 - MVC/desafio-final-rpg/target/test-classes/com/unipar/desafio_final_rpg/DesafioFinalRpgApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/Financeiro/Banco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/Financeiro/Caixa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/META-INF/Revisao1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/enumeradores/Cor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/enumeradores/Habilidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/enumeradores/Material.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/enumeradores/Turno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/pessoas/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/pessoas/Instalador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/pessoas/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/produto/CaixaDaAgua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/produto/Servico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/repositorio/JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/repositorio/JDBCmovimentacaoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/Caixa_De_Agua/CadastrarCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/Caixa_De_Agua/CompraCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/Caixa_De_Agua/EditarCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/Caixa_De_Agua/ListarCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/MenuCaixaDeAguaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/MenuPrincipalKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/MenuSaldoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/caixa_da_agua/ExcluirCaixaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/out/production/Revisao1/sistema/pagamento/PagarBoletoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/repositorio/JDBC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/repositorio/JDBC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/repositorio/JPA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/repositorio/JPA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/MenuCaixaDeAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/MenuCaixaDeAgua.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/MenuSaldo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/MenuSaldo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Springboot" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="7356a31a-a98b-49e8-b86e-a43d321fc340" value="" />
+    </colors>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Revisao1">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Revisao1">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Revisao1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Revisao1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Revisao1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JoaozinhoProgramas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JoaozinhoProgramas/Kotlin.git",
+    "accountId": "750ca39f-7546-4d7f-8e3b-a6468b69704a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3It0iEJT0T6Sm0NpIBUZCImjbbe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Revisao1 [run].executor": "Run",
+    "Kotlin.Main.Kt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Revisao1 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Revisao1" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Revisao1 [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aac26c7-03b2-47ec-aa50-aff9df698c55" name="Changes" comment="" />
+      <created>1788568682683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788568682683</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
