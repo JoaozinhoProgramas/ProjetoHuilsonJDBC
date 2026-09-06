@@ -1,11 +1,13 @@
 package repositorio
 
 import produto.CaixaDaAgua
+import sistema.Caixa_De_Agua.VendaCaixa
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.SQLException
 import java.math.BigDecimal
 
+//LEMBRAR DE ORGANIZAR ISSO AQUI DPS, TA UMA BAGUNÇA
 
 //porta: 5432
 //usuario: postgres
@@ -209,5 +211,41 @@ class JDBC(
         }
 
         return null
+    }
+
+    fun buscarQuantidade(id: Int): Int? {
+        conectar()
+        try {
+            val sql = "SELECT quantidade FROM ESTOQUE_CAIXA_DE_AGUA WHERE id = ?"
+            val stmt = c!!.prepareStatement(sql)
+            stmt.setInt(1, id)
+            val rs = stmt.executeQuery()
+
+            return if (rs.next()) rs.getInt("quantidade") else null
+
+        } catch (e: SQLException) {
+            e.printStackTrace()
+            return null
+        } finally {
+            c?.close()
+        }
+    }
+
+    fun enviarQuantidade(id: Int, quantidade: Int): Boolean {
+        conectar()
+        try {
+            val sql = "UPDATE ESTOQUE_CAIXA_DE_AGUA SET quantidade = ? WHERE id = ?"
+            val stmt = c!!.prepareStatement(sql)
+            stmt.setInt(1, quantidade)
+            stmt.setInt(2, id)
+
+            return stmt.executeUpdate() > 0
+
+        } catch (e: SQLException) {
+            e.printStackTrace()
+            return false
+        } finally {
+            c?.close()
+        }
     }
 }

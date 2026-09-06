@@ -5,7 +5,7 @@ import enumeradores.Material
 import produto.CaixaDaAgua
 import repositorio.JDBC
 
-fun CadastrarCaixa(listaDeTeste : MutableList<CaixaDaAgua>){
+fun CadastrarCaixa(){
     println("Digite a marca: (STR)")
     var marca = readln()
 
@@ -15,7 +15,7 @@ fun CadastrarCaixa(listaDeTeste : MutableList<CaixaDaAgua>){
     println("Digite a largura: (DOUBLE)")
     var largura = readln().toDouble()
 
-    print("Digite a altura: (DOUBLE)")
+    println("Digite a altura: (DOUBLE)")
     var altura = readln().toDouble()
 
     println("Digite a profundidade: (DOUBLE)")

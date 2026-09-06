@@ -29,11 +29,29 @@ fun CompraCaixa() {
 
     val finalValue = preco.multiply(BigDecimal(choiceQTYbuy))
 
-    if (finalValue.compareTo(saldo) < 0) {
+    if (finalValue.compareTo(saldo) <= 0) {
+        // Busca a quantidade atual em estoque
+        val actualQTY = jdbc.buscarQuantidade(choiceIDbuy)
+
+        if (actualQTY == null) {
+            println("Estoque não encontrado para este produto")
+            return
+        }
+
+        val novaQuantidade = actualQTY + choiceQTYbuy
+
+        val estoqueAtualizado = jdbc.enviarQuantidade(choiceIDbuy, novaQuantidade)
+
+        if (!estoqueAtualizado) {
+            println("Erro ao atualizar o estoque. Transação cancelada.")
+            return
+        }
+
         println("Transação aprovada")
-        println("Saldo Atual: ${jdbc.atualizarSaldo(finalValue * (-1).toBigDecimal())}")
+        println("Saldo Atual: ${jdbc.atualizarSaldo(finalValue.negate())}")
+        println("Novo estoque: $novaQuantidade unidades")
+
     } else {
         println("Transação não aprovada, saldo insuficiente. Total: $finalValue | Saldo: $saldo")
     }
-
 }

@@ -11,11 +11,11 @@ fun VendaCaixa() {
     listarCaixa()
 
     println("Digite o ID do item que irá vender")
-    val choiceIDbuy = readln().toInt()
-    val preco = jdbc.buscarPreco(choiceIDbuy)
+    val choiceIDsell = readln().toInt()
+    val preco = jdbc.buscarPreco(choiceIDsell)
 
     println("Digite a quantidade que irá vender")
-    val choiceQTYbuy = readln().toInt()
+    val choiceQTYsell = readln().toInt()
 
     if (preco == null) {
         println("Produto não encontrado")
@@ -27,13 +27,29 @@ fun VendaCaixa() {
         return
     }
 
-    val finalValue = preco.multiply(BigDecimal(choiceQTYbuy))
+    val quantidadeAtual = jdbc.buscarQuantidade(choiceIDsell)
 
-    if (finalValue.compareTo(saldo) < 0) {
-        println("Transação aprovada")
-        println("Saldo Atual: ${jdbc.atualizarSaldo(finalValue * (1).toBigDecimal())}")
-    } else {
-        println("Transação não aprovada, saldo insuficiente. Total: $finalValue | Saldo: $saldo")
+    if (quantidadeAtual == null) {
+        println("Estoque não encontrado para este produto")
+        return
     }
 
+    if (choiceQTYsell > quantidadeAtual) {
+        println("Estoque insuficiente. Disponível: $quantidadeAtual | Solicitado: $choiceQTYsell")
+        return
+    }
+
+    val finalValue = preco.multiply(BigDecimal(choiceQTYsell))
+    val novaQuantidade = quantidadeAtual - choiceQTYsell
+
+    val estoqueAtualizado = jdbc.enviarQuantidade(choiceIDsell, novaQuantidade)
+
+    if (!estoqueAtualizado) {
+        println("Erro ao atualizar o estoque. Transação cancelada.")
+        return
+    }
+
+    println("Venda aprovada")
+    println("Saldo Atual: ${jdbc.atualizarSaldo(finalValue)}")
+    println("Novo estoque: $novaQuantidade unidades")
 }
