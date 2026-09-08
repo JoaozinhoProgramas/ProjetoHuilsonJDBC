@@ -9,12 +9,6 @@ import sistema.Caixa_De_Agua.listarCaixa
 
 fun menuCaixaDeAgua() {
     val listaDeTeste = mutableListOf<CaixaDaAgua>()
-    /*val regex = Regex("\\d")
-    val validaEmail = Regex("""^[a-zA-z0-9]+.@[a-z]+(com|com.br)$""")
-    val op = readln()
-    validaEmail.find(op)
-        if(regex.matches(op))*/
-
         do {
             println("1 sair")
             println("2 cadastrar")
@@ -28,7 +22,7 @@ fun menuCaixaDeAgua() {
                 }
 
                 2 -> {
-                    CadastrarCaixa(listaDeTeste)
+                    CadastrarCaixa()
                 }
 
                 3 -> listarCaixa()

@@ -26,7 +26,7 @@ fun menuInicial() {
                 }
 
                 2 -> {
-                    CadastrarCaixa(listaDeTeste)
+                    CadastrarCaixa()
                 }
 
                 3 -> listarCaixa()
