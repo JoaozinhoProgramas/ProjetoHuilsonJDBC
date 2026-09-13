@@ -1,7 +1,7 @@
 package repositorio
 
 import produto.CaixaDaAgua
-import sistema.Caixa_De_Agua.VendaCaixa
+import sistema.Login.User
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.SQLException
@@ -13,7 +13,7 @@ import java.math.BigDecimal
 //usuario: postgres
 //senha: postgres
 //banco: ProjetoHuilson
-class JDBC(
+open class JDBC(
     val user : String = "postgres",
     val password : String = "postgres",
     val url : String = "jdbc:postgresql://localhost:5432/ProjetoHuilson",
@@ -25,7 +25,7 @@ class JDBC(
             Class.forName("org.postgresql.Driver")
             //estabelecendo conexão
             c = DriverManager.getConnection(url, user, password)
-            println("A conexão foi estabelecida com sucesso")
+            //println("AVISO: A conexão com o BD foi estabelecida com sucesso") toda vez q conecta com o BD, roda esse print
         } catch (e: SQLException) {
             print("Fudeu foi tudo, ERRO: ${e.printStackTrace()}")
 
@@ -248,4 +248,64 @@ class JDBC(
             c?.close()
         }
     }
+
+    fun buscarLoginPorUsuario(usuario: String): Credencial? {
+        conectar()
+        try {
+            val sql = "SELECT USUARIO, SENHA FROM CREDENCIAIS WHERE usuario = ?"
+            val stmt = c!!.prepareStatement(sql)
+            stmt.setString(1, usuario)
+            val rs = stmt.executeQuery()
+
+            return if (rs.next()) {
+                Credencial(
+                    usuario = rs.getString("USUARIO"),
+                    senha = rs.getString("SENHA")
+                )
+            } else null
+
+        } catch (e: SQLException) {
+            e.printStackTrace()
+            return null
+        } finally {
+            c?.close()
+        }
+
+    }
+
+    fun cadastrarUsuario(usuario: User): Credencial? {
+        conectar()
+        try {
+            val sql = """
+            INSERT INTO CREDENCIAIS
+            (usuario, senha)
+            VALUES (?, ?)
+        """.trimIndent()
+
+            val stmt = c!!.prepareStatement(sql)
+
+            stmt.setString(1, usuario.usuario)
+            stmt.setString(2, usuario.senha)
+
+            stmt.executeUpdate()
+            stmt.close()
+
+            return Credencial(usuario.usuario, usuario.senha)
+
+        } catch (e: SQLException) {
+            e.printStackTrace()
+            return null
+        } finally {
+            c?.close()
+        }
+    }
+
+    data class Credencial(val usuario: String, val senha: String) {
+
+
+    }
 }
+
+
+
+

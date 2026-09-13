@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aac26c7-03b2-47ec-aa50-aff9df698c55" name="Changes" comment="Versão com Gra">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/executionHistory/executionHistory.bin" afterDir="false" />
@@ -15,11 +14,11 @@
       <change beforePath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/.gradle/9.6.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/SQL/File.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/SQL/File.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/META-INF/Revisao1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/META-INF/Revisao1.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/repositorio/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/repositorio/JDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/Caixa_De_Agua/CadastrarCaixaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/Caixa_De_Agua/CadastrarCaixaKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/MenuCaixaDeAguaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/MenuCaixaDeAguaKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/MenuPrincipalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/MenuPrincipalKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/build/classes/kotlin/main/sistema/Funcionarios/Funcionarios.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
@@ -46,6 +45,8 @@
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
@@ -91,10 +92,11 @@
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/build/kotlin/compileKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revisao1/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/ListarCaixa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/ListarCaixa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/MenuCaixaDeAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/MenuCaixaDeAgua.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/MenuPrincipal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/MenuPrincipal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/pagamento/PagarBoleto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/pagamento/PagarBoleto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/repositorio/JDBC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/repositorio/JDBC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/CompraCaixa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/Transacao/CompraCaixa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/VendaCaixa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/Caixa_De_Agua/Transacao/VendaCaixa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/Funcionarios/Funcionarios.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revisao1/src/sistema/MenuSaldo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Revisao1/src/sistema/MenuSaldo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +148,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -175,34 +177,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Revisao1 [run].executor": "Run",
-    "Kotlin.Main.Kt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Revisao1 [run].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Main.Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="sistema.Caixa_De_Agua.Transacao" />
+      <recent name="sistema.Caixa_De_Agua" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Revisao1 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>

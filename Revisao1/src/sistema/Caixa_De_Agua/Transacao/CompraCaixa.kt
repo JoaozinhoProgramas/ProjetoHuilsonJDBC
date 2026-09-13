@@ -2,8 +2,11 @@ package sistema.Caixa_De_Agua
 
 import repositorio.JDBC
 import java.math.BigDecimal
+import sistema.Caixa_De_Agua.Transacao.ResultadoTransacao
+import sistema.Caixa_De_Agua.Transacao.TipoTransacao
 
-fun CompraCaixa() {
+
+fun CompraCaixa(): ResultadoTransacao? {
     val jdbc = JDBC()
     val saldo = jdbc.buscarSaldo()
 
@@ -19,39 +22,41 @@ fun CompraCaixa() {
 
     if (preco == null) {
         println("Produto não encontrado")
-        return
+        return null
     }
 
     if (saldo == null) {
         println("Saldo não encontrado")
-        return
+        return null
     }
 
     val finalValue = preco.multiply(BigDecimal(choiceQTYbuy))
 
     if (finalValue.compareTo(saldo) <= 0) {
-        // Busca a quantidade atual em estoque
         val actualQTY = jdbc.buscarQuantidade(choiceIDbuy)
 
         if (actualQTY == null) {
             println("Estoque não encontrado para este produto")
-            return
+            return null
         }
 
         val novaQuantidade = actualQTY + choiceQTYbuy
-
         val estoqueAtualizado = jdbc.enviarQuantidade(choiceIDbuy, novaQuantidade)
 
         if (!estoqueAtualizado) {
             println("Erro ao atualizar o estoque. Transação cancelada.")
-            return
+            return null
         }
 
-        println("Transação aprovada")
-        println("Saldo Atual: ${jdbc.atualizarSaldo(finalValue.negate())}")
-        println("Novo estoque: $novaQuantidade unidades")
+        jdbc.atualizarSaldo(finalValue.negate())
+
+        return ResultadoTransacao(
+            tipo = TipoTransacao.COMPRA,
+            valor = finalValue
+        )
 
     } else {
         println("Transação não aprovada, saldo insuficiente. Total: $finalValue | Saldo: $saldo")
+        return null
     }
 }

@@ -2,6 +2,10 @@ package sistema
 
 import sistema.Caixa_De_Agua.CompraCaixa
 import sistema.Caixa_De_Agua.VendaCaixa
+import sistema.Caixa_De_Agua.Transacao.TipoTransacao
+import sistema.Caixa_De_Agua.Transacao.Transacao
+
+
 
 fun menuSaldo(){
     do {
@@ -16,9 +20,15 @@ fun menuSaldo(){
                 println("Função do saldo")
             }
 
-            2 -> CompraCaixa()
+            2 -> {
+                Transacao().montarTransacao(TipoTransacao.COMPRA)
+                CompraCaixa()
+            }
 
-            3 -> VendaCaixa()
+            3 -> {
+                Transacao().montarTransacao(TipoTransacao.VENDA)
+                VendaCaixa()
+            }
 
             4 -> {
                 break
