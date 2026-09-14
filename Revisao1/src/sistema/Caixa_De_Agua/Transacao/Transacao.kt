@@ -4,6 +4,7 @@ import sistema.Login.Login
 import sistema.Caixa_De_Agua.VendaCaixa
 import sistema.Caixa_De_Agua.CompraCaixa
 import java.time.format.DateTimeFormatter
+import repositorio.JDBC
 
 class Transacao {
     fun montarTransacao(tipo: TipoTransacao) {
@@ -36,5 +37,15 @@ class Transacao {
         """.trimIndent())
         println()
 
+        val conexao = JDBC()
+        conexao.salvarTransacao(
+            montarTransacao(
+                responsavel = usuario,
+                tipo = resultado.tipo,
+                valor = resultado.valor,
+                data = dataFormatada
+            )
+
+            )
     }
 }

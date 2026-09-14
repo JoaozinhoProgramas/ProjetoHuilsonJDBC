@@ -1,6 +1,7 @@
 package repositorio
 
 import produto.CaixaDaAgua
+import sistema.Caixa_De_Agua.Transacao.Transacao
 import sistema.Login.User
 import java.sql.Connection
 import java.sql.DriverManager
@@ -297,6 +298,19 @@ open class JDBC(
             return null
         } finally {
             c?.close()
+        }
+    }
+
+    fun salvarTransacao(transacao : Transacao) {
+        try {
+            conectar()
+            val sql = """
+                INSERT INTO TRANSACAO
+                (responsável, tipo, valor, data)
+                VALUES (?, ?, ?, ?)
+            """.trimIndent()
+        }catch (e: SQLException) {
+            println(e.printStackTrace())
         }
     }
 
